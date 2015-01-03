@@ -1,0 +1,40 @@
+# Reflections on Lesson 1
+
+
+**How did viewing a diff between two versions of a file help you see the bug that was introduced?**
+
+I am using linux so, my output was kind of different and it was a litter harder to find the bug.... But still much and much easier then it would haven been if I did it the manual hard way.
+
+**How could having easy access to the entire history of a file make you a more efficient programmer in the long term?**
+
+I can switch between versions with a few key strokes. If bugs were introduced I can just switch to older version. And find the bug in another branch. Finding the bug will also be much easier because I will now where to look for it. 
+
+
+**What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?**
+
+**Pro**
+*- You can add logical order to commits. Making your git log less gluttered and meaningfull. 
+*- thus makes it easier to find newly created bugs
+*- thus makes it easier to revert to an older version without having to far back.
+
+**Conn**
+-You can forget to commit
+
+
+**Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like 
+Google Docs, treat each file separately?**
+
+People using git need to have changes related to one another tracked. People using Google Docs do not. I also think it is much harder to implement. 
+
+**How can you use the commands git log and git diff to view the history of files?**
+
+git log gives you an overview of all committed changes in your git tracked project.
+git diff can show you what lines have changed between 2 different commits.
+
+**How might using version control make you more confident to make changes that could break something?**
+
+Because it is now much easier to track down my mistakes and buggs. 
+
+**Now that you have your workspace set up, what do you want to try using Git for?**
+
+For my next homework assignment. After that for everything that is coding related

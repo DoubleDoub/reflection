@@ -1,0 +1,5 @@
+# Reflections on lesson 2
+
+**What happens when you initialize a repository? Why do you need to do it?**
+
+Git init creates a .git directory. Among other things it will contain all of its tracking information. Git needs this to make it possible for git to do the awesomeness it does. When this directory is removed, Git is no longer tracking your project. 
