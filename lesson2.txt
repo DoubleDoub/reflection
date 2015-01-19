@@ -3,3 +3,7 @@
 **What happens when you initialize a repository? Why do you need to do it?**
 
 Git init creates a .git directory. Among other things it will contain all of its tracking information. Git needs this to make it possible for git to do the awesomeness it does. When this directory is removed, Git is no longer tracking your project. 
+
+**How is the staging area different from the working directory and the repository? What value do you think it offers?**
+
+The staging area is somewhat of an abstract concept. In this area you can add files without commiting them. In this area you can prepare the changed files you would like to commit. This can come in handy when you made more changes in your working directory but are not yet ready to commit them. Or those changes logically belong to a different commit making your commits more succinct. 
