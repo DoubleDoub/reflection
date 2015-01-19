@@ -7,3 +7,17 @@ Git init creates a .git directory. Among other things it will contain all of its
 **How is the staging area different from the working directory and the repository? What value do you think it offers?**
 
 The staging area is somewhat of an abstract concept. In this area you can add files without commiting them. In this area you can prepare the changed files you would like to commit. This can come in handy when you made more changes in your working directory but are not yet ready to commit them. Or those changes logically belong to a different commit making your commits more succinct. 
+
+**How can you use the staging area to make sure you have one commit per logical change?**
+
+You could hold out on staging files that are part of a different logical change. 
+
+**What are some situations when branches would be helpful in keeping your history organized? How would branches help?**
+
+Creating a branche is very helpful in quite a lot of situations. Among others it is helpfull when you'ld like to seperate the production branche from the development branche, make some ridiculous experimental changes, develop an app for in different language, etc.
+
+**How do the diagrams help you visualize the branch structure?**
+The same way diagrams help viusualize other things. I am guessing that the answer that you are looking for has to do with the fact that when you visualize the branch through a diagram it is easier to spot which checkout belongs to what branch. What checkouts are reachable and what needs to be merged. 
+
+**What is the result of merging two branches together? Why do we represent it in the diagram the way we do?**
+The result is that the working directroy, HEAD and most recent commit point to and cosist out of one code base that created by changes made in two different branches. 
